@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main { 
+    background-color: aliceblue;
+    background: url('http://getwallpapers.com/wallpaper/full/7/9/5/1186946-free-wallpaper-for-vertical-monitor-1440x3440.jpg#.XpnGbGxO1n4.link');
+    background-size: 1920px 1080px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.headline {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+div {
+    margin-bottom: 20px;
+}
+#name, #email, #number{
+    width: 100%;
+    height: 5%;
+    padding: 0 10 0 10;
+    border-radius: 10px;
+}
+#name-label, #email-label, #number-label {
+    padding: 0 10 0 10;
+    font-size: 24;
+}
+form {
+    padding: 15px;
+    margin: 0 24% 0 24%;
+    background-color: rgba(20, 36, 92, 0.5);
+}
+#cars-label, #improve,#radio-btn, #comment, #submit, #currentRole{
+    font-size: 24;
+    padding: 0 10 0 0;
+}
+textarea {
+    width: 100%;
+    height: 15%;
+}
+button {
+    background-color: rgb(19, 17, 51);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+@media screen and (max-width: 1024px){
+    #name, #email, #number{
+        margin: 0 auto;
+    }
+    form {
+        padding: 15px;
+        margin: 0 5% 0 5%;
+        background-color: rgba(20, 36, 92, 0.5);
+}
+}
